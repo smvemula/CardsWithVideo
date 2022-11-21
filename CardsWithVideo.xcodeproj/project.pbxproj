@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF464B55292BF37B0011227E /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF464B54292BF37B0011227E /* HexagonParameters.swift */; };
+		AF464B57292BF4060011227E /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF464B56292BF4060011227E /* BadgeBackground.swift */; };
+		AF464B59292BF9EF0011227E /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF464B58292BF9EF0011227E /* BadgeSymbol.swift */; };
+		AF464B5B292BFB000011227E /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF464B5A292BFB000011227E /* RotatedBadgeSymbol.swift */; };
+		AF464B5D292BFB6C0011227E /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF464B5C292BFB6C0011227E /* Badge.swift */; };
+		AF464B5F292C03C10011227E /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = AF464B5E292C03C10011227E /* hikeData.json */; };
+		AF464B62292C03E70011227E /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF464B61292C03E70011227E /* Hike.swift */; };
+		AF464B68292C04670011227E /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF464B64292C04670011227E /* GraphCapsule.swift */; };
+		AF464B69292C04670011227E /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF464B65292C04670011227E /* HikeGraph.swift */; };
+		AF464B6A292C04670011227E /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF464B66292C04670011227E /* HikeDetail.swift */; };
+		AF464B6B292C04670011227E /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF464B67292C04670011227E /* HikeView.swift */; };
 		AFE69667292408B4007E67CD /* CardsWithVideoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE69666292408B4007E67CD /* CardsWithVideoApp.swift */; };
 		AFE69669292408B4007E67CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE69668292408B4007E67CD /* ContentView.swift */; };
 		AFE6966B292408B6007E67CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFE6966A292408B6007E67CD /* Assets.xcassets */; };
@@ -43,6 +54,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF464B54292BF37B0011227E /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		AF464B56292BF4060011227E /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		AF464B58292BF9EF0011227E /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		AF464B5A292BFB000011227E /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
+		AF464B5C292BFB6C0011227E /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		AF464B5E292C03C10011227E /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
+		AF464B61292C03E70011227E /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		AF464B64292C04670011227E /* GraphCapsule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
+		AF464B65292C04670011227E /* HikeGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
+		AF464B66292C04670011227E /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
+		AF464B67292C04670011227E /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
 		AFE69663292408B4007E67CD /* CardsWithVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardsWithVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFE69666292408B4007E67CD /* CardsWithVideoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsWithVideoApp.swift; sourceTree = "<group>"; };
 		AFE69668292408B4007E67CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +111,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF464B53292BF3600011227E /* Drawings */ = {
+			isa = PBXGroup;
+			children = (
+				AF464B54292BF37B0011227E /* HexagonParameters.swift */,
+				AF464B56292BF4060011227E /* BadgeBackground.swift */,
+				AF464B58292BF9EF0011227E /* BadgeSymbol.swift */,
+				AF464B5A292BFB000011227E /* RotatedBadgeSymbol.swift */,
+				AF464B5C292BFB6C0011227E /* Badge.swift */,
+			);
+			path = Drawings;
+			sourceTree = "<group>";
+		};
+		AF464B60292C03CD0011227E /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				AF464B63292C04670011227E /* Hikes */,
+				AF464B61292C03E70011227E /* Hike.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		AF464B63292C04670011227E /* Hikes */ = {
+			isa = PBXGroup;
+			children = (
+				AF464B64292C04670011227E /* GraphCapsule.swift */,
+				AF464B65292C04670011227E /* HikeGraph.swift */,
+				AF464B66292C04670011227E /* HikeDetail.swift */,
+				AF464B67292C04670011227E /* HikeView.swift */,
+			);
+			path = Hikes;
+			sourceTree = "<group>";
+		};
 		AFE6965A292408B4007E67CD = {
 			isa = PBXGroup;
 			children = (
@@ -118,8 +172,11 @@
 				AFE696A029241CEB007E67CD /* LandmarkDetail.swift */,
 				AFE6969929241866007E67CD /* CustomViews */,
 				AFE6969829241857007E67CD /* Model */,
+				AF464B53292BF3600011227E /* Drawings */,
+				AF464B60292C03CD0011227E /* Animation */,
 				AFE6966A292408B6007E67CD /* Assets.xcassets */,
 				AFE696942924182A007E67CD /* landmarkData.json */,
+				AF464B5E292C03C10011227E /* hikeData.json */,
 				AFE6966C292408B6007E67CD /* Preview Content */,
 			);
 			path = CardsWithVideo;
@@ -274,6 +331,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF464B5F292C03C10011227E /* hikeData.json in Resources */,
 				AFE6966E292408B6007E67CD /* Preview Assets.xcassets in Resources */,
 				AFE6966B292408B6007E67CD /* Assets.xcassets in Resources */,
 				AFE696952924182A007E67CD /* landmarkData.json in Resources */,
@@ -302,11 +360,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFE69669292408B4007E67CD /* ContentView.swift in Sources */,
+				AF464B69292C04670011227E /* HikeGraph.swift in Sources */,
+				AF464B5D292BFB6C0011227E /* Badge.swift in Sources */,
 				AFE6969329241110007E67CD /* MapView.swift in Sources */,
+				AF464B68292C04670011227E /* GraphCapsule.swift in Sources */,
 				AFE69667292408B4007E67CD /* CardsWithVideoApp.swift in Sources */,
 				AFE696A329242980007E67CD /* FavoriteButton.swift in Sources */,
+				AF464B6A292C04670011227E /* HikeDetail.swift in Sources */,
+				AF464B55292BF37B0011227E /* HexagonParameters.swift in Sources */,
+				AF464B62292C03E70011227E /* Hike.swift in Sources */,
+				AF464B5B292BFB000011227E /* RotatedBadgeSymbol.swift in Sources */,
+				AF464B59292BF9EF0011227E /* BadgeSymbol.swift in Sources */,
 				AFE6969F29241C0C007E67CD /* LandmarkList.swift in Sources */,
+				AF464B6B292C04670011227E /* HikeView.swift in Sources */,
 				AFE696A129241CEB007E67CD /* LandmarkDetail.swift in Sources */,
+				AF464B57292BF4060011227E /* BadgeBackground.swift in Sources */,
 				AFE6969129240FC2007E67CD /* CircleImage.swift in Sources */,
 				AFE696972924184E007E67CD /* Landmark.swift in Sources */,
 				AFE6969D29241A16007E67CD /* LandmarkRow.swift in Sources */,
@@ -472,6 +540,7 @@
 				DEVELOPMENT_TEAM = V34X27WUKE;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SwiftUITutorial;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -501,6 +570,7 @@
 				DEVELOPMENT_TEAM = V34X27WUKE;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SwiftUITutorial;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
